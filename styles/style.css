@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "JosefinSans";
+    src: url("../fonts/JosefinSans-SemiBold.ttf");
+    font-weight: 600; 
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "JosefinSans";
+    src: url("../fonts/JosefinSans-Regular.ttf");
+    font-weight: 400; 
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "NeueMontreal";
+    src: url("../fonts/NeueMontreal-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "NeueMontreal";
+    src: url("NeueMontreal-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "JosefinSans";
+    src: url("JosefinSans-Medium.ttf");
+    font-weight: 500; 
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "JosefinSans";
+    src: url("JosefinSans-Bold.ttf");
+    font-weight: 700; 
+    font-style: normal;
+    font-display: swap;
+}
+.menu-link{
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 38px;
+    color: #062D3E;
+    text-decoration: none;
+    font-family: 'JosefinSans', Arial, sans-serif;
+}
+.nav__link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    color: #062D3E;
+    text-decoration: none;
+    font-family: 'JosefinSans', Arial, sans-serif;
+    letter-spacing: 0.14px;
+    opacity: 0.77;
+}
+.nav__link-Service {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav__link-About {
+    color:#FFFFFF;
+    text-shadow: 
+    -1px -1px 1px #000000,
+    1px -1px 1px #000000,
+    -1px 1px 1px #000000,
+    1px 1px 1px #000000,
+    0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 1;
+}
+.Sign-up-button { 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family: 'NeueMontreal', Arial, sans-serif;
+    background-color: transparent; 
+    border: 2px solid #FFFFFF;   
+    border-radius: 190px;        
+    padding: 12px 32px;
+    cursor: pointer;
+    letter-spacing: 1.8px;
+    appearance: none;
+}
+.site-header {
+    background-color: #EBE3CC;
+    display: flex;
+    justify-content: space-between;                
+    align-items: center;
+    padding: 20px;            
+}
+.nav__item { 
+    display: inline-block;
+    margin-right: 40px;   
+}
+.main {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 92px;
+    color: #062D3E;
+    text-decoration: none;
+    font-family: 'JosefinSans', Arial, sans-serif;
+    letter-spacing: 1.8px;
+}
+.Learn-More-button { 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    background-color: #ED5C01;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family: 'NeueMontreal', Arial, sans-serif;
+    border: 2px solid;   
+    border-radius: 247px;        
+    padding: 16px 36px;
+    cursor: pointer;
+    letter-spacing: 1.8px;
+    appearance: none;
+}
+.categories {
+    position: relative; 
+    min-height: 300px;
+}
+.categories::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-image: url('../images/paper.jpg'); 
+    background-size: contain;
+    z-index: -1;
+}
