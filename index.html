@@ -1,166 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet-First</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <header class="site-header">
-        <h1 class="menu-link">Pet-First</h1>
-        <nav class="nav">
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="root">
+      <header class="site-header">
+        <div class="wrapper header-container">
+          <h1 class="menu-link">Pet-First</h1>
+          <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span class="hamburger"></span>
+          </button>
+          <nav class="nav">
             <ul class="nav__list">
-            <li class="nav__item">
-                <a class="nav__link nav__link-About" href="#">About</a>
-            </li>
-            <li class="nav__item">
-                <a class="nav__link nav__link-Service" href="#">Service</a>
-            </li>
-            <li class="nav__item">
+              <li class="nav__item nav__item-active">
+                <a class="nav__link nav__link-active" href="#">About</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Service</a>
+              </li>
+              <li class="nav__item">
                 <a class="nav__link" href="#">Madi-Care</a>
-            </li>
-            <li class="nav__item">
+              </li>
+              <li class="nav__item">
                 <a class="nav__link" href="#">Blog</a>
-            </li>
-        </ul>
-    </nav>
-    <button class="Sign-up-button">Sign up</button>
-    </header>
-    <main class="main">
-        <section class="hero-section">
-            <div class="menu">
-                <ul class="info-list">
-                    <li>
-                        <img src="images/arrow.svg" alt="arrow" class="arrow-icon">
-                        <a href="#">Available in select states</a>
-                    </li>
-                </ul>
-                <h2 class="title">A pet-first approach to wellness
-                    <img src="images/blots-1.svg" alt="blots-1">
-                </h2>
-                <button class="Learn-More-button">Learn More</button>
-                <img src="images/dog.png" alt="dog">
-
-                <div class="arrow-container">
-                <img src="images/Vector-2.svg" alt="Vector-2">
-                <img src="images/arrow2.svg" alt="arrow2">
-                <img src="images/arrow3.svg" alt="arrow3">
-            </div>
-            <img src="images/pattern-1.svg" alt="pattern-1">
-            <section class="categories">
-                <div class="category-list">
-                    <img src="images/dog-collar.svg" alt="dog-collar">
-                    <img src="images/icon-45.svg" alt="icon-45">
-                    <img src="images/Ellipse-cat1.png" alt="cat1">
-                    <img src="images/Ellipse-parrot3.png" alt="parrot3">
-                    <img src="images/Ellipse-mops4.png" alt="mops">
-                    <img src="images/Ellipse-bird2.png" alt="bird2">
-                    <img src="images/Ellipse-cat5.png" alt="cat5">
-                    <img src="images/Ellipse-fox6.png" alt="fox6">
-                    <img src="images/Ellipse-cheetah10.png" alt="cheetah">
-                    <img src="images/Ellipse-cat8.png" alt="cat8">
-                    <img src="images/Ellipse-bird12.png" alt="bird12">
-                    <img src="images/Ellipse-pig7.png" alt="pig7">
-                    <img src="images/Ellipse-dog11.png" alt="dog11">
-                    <img src="images/Ellipse-parrot9.png" alt="parrot9">
-                    <img src="images/Ellipse-rabbit13.png" alt="rabbit13">
+              </li>
+            </ul>
+          </nav>
+          <button class="Sign-up-button">Sign up</button>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__container container">
+            <div class="hero__content">
+              <div class="hero__info">
+                <div class="availability">
+                  <img
+                    src="images/arrow.svg"
+                    alt=""
+                    class="availability__icon"
+                    aria-hidden="true"
+                  />
+                  <span class="availability__text"
+                    >Available in select states</span
+                  >
                 </div>
-        </section>
-        <section class="hero-section">
-            <div class="menu">
-                <h2 class="title">Our Service</h2>
-                <img src="images/blue-stripes.svg" alt="blue-stripes">
-                <div class="service-cards">>
-                <ul>
-                    <li>
-                        <img src="images/stethoscope.svg" alt="stethoscope">
-                        <h3>Pharmacy</h3>
-                        <p>
-                            Apoquel is an oral tablet that works differently than other allergy medications. It goes straight to the source to help relieve itch and inflammation at its core—addressing the underlying cause of irritation
-                        </p>
-                        <button class="Explore-button">Explore</button>
-                        <img src="images/Mask-group-dogs.svg" alt="Mask-group-dogs">
-                    </li>
-                    <li>
-                        <img src="images/scissors.svg" alt="scissors">
-                        <h3>Breed-specific Haircuts</h3>
-                        <p>
-                            Regular grooming is essential to your pet's health as it helps prevent skin issues such as matting.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="images/shirt.svg" alt="shirt">
-                        <h3>Cloths</h3>
-                        <p>
-                            Is your dog at the top of his/her fashion game? Don't forget a dog bikini or swim trunks for your pet's next vacation! Whether poolside, at the beach, or on the yacht, your pooch will look summer-ready
-                            Explore
-                        </p>
-                    </li>
-                </ul>
-                <img src="images/spiral-2.svg" alt="spiral-2.svg">
-                <img src="images/woman-and-dog.png" alt="woman-and-dog">
-                <h2 class="title-2">Making pet parenting easy for everyone</h2>
-                <p>
-                    Could this be the dog with the longest tail? The Rampur Greyhound - shy, sensitive, alert, and faithful. This is a breed that has climbed its way to being top dog because of its intelligence
-                </p>
-                    <ul class="making_list">
-                    <li class="making_item">
-                        <a class="making__link-Adoption" href="#">Adoption</a>
-                    </li>
-                    <li class="making_item">
-                        <a class="making__link-Frozen Raw" href="#">Frozen Raw</a>
-                    </li>
-                    <li class="making_item">
-                        <a class="making__link-Next Day Delivery" href="#">Next Day Delivery</a>
-                    </li>
-                    <button class="Explore-button">Explore</button>
+                <h1 class="hero__title">
+                  <span class="hero__title-line hero__title-line--bold"
+                    >A PET-FIRST</span
+                  >
+                  <span class="hero__title-line hero__title-line--regular"
+                    >APPROACH TO
 
-                    <img src="images/man.png" alt="man.png">
-                    <h2 class="title-3">Customer Reviews</h2>
-                <p>
-                    As we continue to push for better regulation in the Australian pet food industry it can be hard to trust many pet food brands. Our 2021 Best Cat Food in Australia list will offer you a great starting point in deciding what to feed your cat.
-                </p>
-                <img src="images/dog-2.png" alt="dog-2.png">
-                <h2 class="title-4">Subscribe & Get Pet Updatenews</h2>
+                    <div class="hero__decoration hero__decoration--blot"></div>
+                  </span>
+                  <span class="hero__title-line hero__title-line--bold"
+                    >WELLNESS</span
+                  >
+                </h1>
+                <button class="hero__button button">Learn More</button>
+              </div>
+              <div class="hero__image-wrapper">
+                <img
+                  src="images/Dog-01.png"
+                  alt="Happy dog"
+                  class="hero__image"
+                />
+              </div>
             </div>
+          </div>
+          <div class="hero__decoration hero__decoration--blue-bg"></div>
+          <div class="hero__decoration hero__decoration--pattern"></div>
         </section>
-    </main>
-    <footer class="site-footer">
-        <p class="footer-text">Pet-First</p>
-        <img src="images/blots-2.svg" alt="blots-2.">
-        <ul class="footer-links">
-            <li><a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Project</a>
-            </li>
-            <li>
-                <a href="#">Service</a>
-            </li>
-            <li>
-                <a href="#">Client</a>
-            </li>
-            <li>
-                <a href="#">Client</a>
-            </li>
-            <li>
-                <a href="#">Team</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="#">Flow</a>
-            </li>
-        </ul>
-        <img src="images/icon-f.svg" alt="f" width="34.94" height="35.76">
-        <img src="images/icon-instagram.svg" alt="instagram" width="34.94" height="35.75">
-        <img src="images/icon-twitter.svg" alt="twitter" width="34.94" height="35.75">
-    </footer>
-</body>
+        <section class="categories">
+          <div class="category-list">
+            <img src="images/dog-collar.svg" alt="" class="dog-collar" />
+
+            <div class="category__item">
+              <img
+                src="images/icon-45.svg"
+                alt="icon-45"
+                class="category__icon"
+              />
+              <div class="list-pets">
+                <div class="list">
+                  <img
+                    src="images/Ellipse-cat1.png"
+                    alt="cat1"
+                    class="category__image"
+                  />
+                  <img
+                    src="images/Ellipse-parrot3.png"
+                    alt="parrot3"
+                    class="category__image"
+                  />
+                </div>
+                <div class="pet-with-lable">
+                  <p class="pet-lable">Dog <span>(JASPER)</span></p>
+                  <img
+                    src="images/Ellipse-mops4.png"
+                    alt="mops4"
+                    class="category__image"
+                  />
+                </div>
+                <div class="list">
+                  <img
+                    src="images/Ellipse-bird2.png"
+                    alt="bird2"
+                    class="category__image"
+                  />
+                  <img
+                    src="images/Ellipse-cat5.png"
+                    alt="cat5"
+                    class="category__image"
+                  />
+                </div>
+                <div class="list">
+                  <img
+                    src="images/Ellipse-fox6.png"
+                    alt="fox6"
+                    class="category__image"
+                  />
+                  <img
+                    src="images/Ellipse-cheetah10.png"
+                    alt="cheetah"
+                    class="category__image"
+                  />
+                </div>
+                <div class="list">
+                  <img
+                    src="images/Ellipse-cat8.png"
+                    alt="cat8"
+                    class="category__image"
+                  />
+                  <img
+                    src="images/Ellipse-bird12.png"
+                    alt="bird12"
+                    class="category__image"
+                  />
+                </div>
+                <div class="list">
+                  <img
+                    src="images/Ellipse-pig7.png"
+                    alt="pig7"
+                    class="category__image"
+                  />
+                  <img
+                    src="images/Ellipse-dog11.png"
+                    alt="dog11"
+                    class="category__image"
+                  />
+                </div>
+                <div class="list cropped">
+                  <img
+                    src="images/parrot.png"
+                    alt="parrot9"
+                    class="category__image"
+                  />
+                  <img
+                    src="images/rabbit.png"
+                    alt="rabbit13"
+                    class="category__image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="services-section">
+          <div class="services-decorations" aria-hidden="true"></div>
+          <div class="services-container">
+            <h2 class="section-title pl">Our Service</h2>
+            <div class="service-cards">
+              <div class="service__card">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="540"
+                  height="572"
+                  viewBox="0 0 540 572"
+                  fill="none"
+                >
+                  <path
+                    d="M0.00294495 66.5008C0.00294495 26.8948 34.6422 -3.79252 73.9594 0.982053L481.959 50.5285C515.09 54.5518 540.003 82.6736 540.003 116.047V505.501C540.003 545.107 505.364 575.794 466.047 571.02L58.0465 521.473C24.9163 517.45 0.00294495 489.328 0.00294495 455.955V66.5008Z"
+                    fill="#FBBD08"
+                  />
+                </svg>
+
+                <div class="nav__card">
+                  <img
+                    src="images/stethoscope.svg"
+                    alt="stethoscope"
+                    class="service-card__icon"
+                  />
+                  <h3 class="service-title">Pharmacy</h3>
+                  <div class="service__info">
+                    <a class="servic__description" href="#"
+                      >Apoquel is an oral tablet that works differently than
+                      other allergy medications. It goes straight to the source
+                      to help relieve itch and inflammation at its
+                      core—addressing the underlying cause of irritation</a
+                    >
+                  </div>
+                  <button class="Explore-button bg-active">Explore</button>
+                  <div class="btm-dogs">
+                    <img
+                      src="images/Mask-group-dogs.svg"
+                      alt="Mask-group-dogs"
+                      class="service-card__image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="service__card">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="540"
+                  height="514"
+                  viewBox="0 0 540 514"
+                  fill="none"
+                >
+                  <path
+                    opacity="0.2"
+                    d="M539.503 66.5889C539.503 27.9082 506.185 -2.276 467.81 1.38281L466.902 1.47559L58.9023 45.9658C25.6729 49.5895 0.50293 77.6536 0.50293 111.08V447.413C0.50314 486.094 33.8214 516.278 72.1963 512.619L73.1035 512.526L481.104 468.036C514.333 464.412 539.503 436.348 539.503 402.922V66.5889Z"
+                    stroke="#224453"
+                  />
+                </svg>
+                <div class="nav__card">
+                  <img
+                    src="images/scissors.svg"
+                    alt="scissors"
+                    class="service-card__icon higher"
+                  />
+                  <h3 class="service-title">Breed-specific Haircuts</h3>
+                  <div class="service__info">
+                    <a class="servic__description" href="#"
+                      >Regular grooming is essential to your pet's health as it
+                      helps prevent skin issues such as matting.</a
+                    >
+                  </div>
+                  <button class="Explore-button">Explore</button>
+                </div>
+              </div>
+              <div class="service__card tp-mrt">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="540"
+                  height="572"
+                  viewBox="0 0 540 572"
+                  fill="none"
+                >
+                  <path
+                    opacity="0.2"
+                    d="M539.5 505.5C539.5 544.499 505.658 574.784 467.018 570.627L466.104 570.522L58.1035 520.977C25.2245 516.984 0.500156 489.075 0.5 455.954V66.5C0.5 27.5011 34.3418 -2.78427 72.9824 1.37305L73.8965 1.47754L481.896 51.0244C514.775 55.0174 539.5 82.9254 539.5 116.046V505.5Z"
+                    stroke="#224453"
+                  />
+                </svg>
+                <div class="nav__card">
+                  <img
+                    src="images/shirt.png"
+                    alt="shirt"
+                    class="service-card__icon"
+                  />
+                  <h3 class="service-title">Cloths</h3>
+                  <div class="service__info">
+                    <a class="servic__description" href="#"
+                      >Is your dog at the top of his/her fashion game? Don't
+                      forget a dog bikini or swim trunks for your pet's next
+                      vacation! Whether poolside, at the beach, or on the yacht,
+                      your pooch will look summer-ready</a
+                    >
+                  </div>
+                  <button class="Explore-button">Explore</button>
+                </div>
+              </div>
+            </div>
+            <div class="service-arrow" aria-hidden="true"></div>
+          </div>
+        </section>
+        <section class="parenting-section">
+          <div class="parenting-content wrapper">
+            <img
+              src="images/woman-and-dog.png"
+              alt="woman-and-dog"
+              class="parenting-image"
+            />
+            <div class="second_parenting">
+              <h2 class="parenting-title">
+                Making pet parenting easy for everyone
+              </h2>
+              <p class="parenting-description">
+                Could this be the dog with the longest tail? The Rampur
+                Greyhound - shy, sensitive, alert, and faithful. This is a breed
+                that has climbed its way to being top dog because of its
+                intelligence
+              </p>
+              <div class="parenting-decorations" aria-hidden="true"></div>
+              <ul class="features_list">
+                <li class="feature_item">
+                  <a class="feature__link" href="#">Adoption</a>
+                </li>
+                <li class="feature_item">
+                  <a class="feature__link" href="#">Frozen Raw</a>
+                </li>
+                <li class="feature_item">
+                  <a class="feature__link" href="#">Next Day Delivery</a>
+                </li>
+              </ul>
+              <button class="Explore-button bg-active">Explore</button>
+            </div>
+          </div>
+        </section>
+        <section class="reviews-section">
+          <div class="reviews-container">
+            <div class="reviews-content wrapper">
+              <div class="reviews-decorations">
+                <div class="reviews-man-dv">
+                  <img
+                    class="man-image"
+                    src="images/man.png"
+                    alt="Man with cat"
+                  />
+                  <div class="quote-ball">
+                    <img
+                      class="star-ball"
+                      src="images/Star-ball.svg"
+                      alt="Star decoration"
+                    />
+                    <img
+                      class="quotation-marks"
+                      src="images/quotation-marks.svg"
+                      alt="Quotation marks"
+                    />
+                  </div>
+
+                  <img
+                    class="vector-pagination"
+                    src="images/Vector-2.svg"
+                    alt="Vector-2"
+                  />
+                </div>
+              </div>
+              <div class="reviews-text-body">
+                <div class="text-reviews">
+                  <h2 class="section-title">Customer Reviews</h2>
+                  <div class="quote-p">
+                    <p class="review-text">
+                      As we continue to push for better regulation in the
+                      Australian pet food industry it can be hard to trust many
+                      pet food brands. Our 2021 Best Cat Food in Australia list
+                      will offer you a great starting point in deciding what to
+                      feed your cat.
+                    </p>
+                    <img
+                      class="vector-quote"
+                      src="images/Vector-1.svg"
+                      alt="Vector-1"
+                    />
+                  </div>
+                </div>
+                <img class="arrow" src="images/arrow2.svg" alt="Arrow" />
+              </div>
+            </div>
+          </div>
+          <img
+            src="images/star-and-line.svg"
+            class="review-star-line"
+            alt="Star decoration"
+          />
+        </section>
+        <section class="newsletter-section">
+          <img src="images/pattern-2.svg" alt="" class="pattern-2__Mail" />
+          <div class="container-newsletter">
+            <div class="left-side">
+              <img src="images/dog-2.png" alt="Dog-2" class="dog-2" />
+              <img src="images/spiral-3.svg" alt="Spiral-3" class="spiral-3" />
+            </div>
+            <div class="right-side">
+              <h2 class="section-title mail">Subscribe & Get Pet Updatenews</h2>
+              <div class="input-mail">
+                <input
+                  type="text"
+                  placeholder="Mail"
+                  class="input-mail__input"
+                />
+                <img src="images/arrowMail.svg" alt="" class="arrowMail" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <img src="images/sochma1.svg" alt="" class="sochma1" />
+        <div class="site-footer-content">
+          <div class="wrapper container-footer">
+            <div class="footer-content">
+              <img src="images/Pet-First.svg" alt="Pet-First.svg" />
+              <nav class="footer_nav">
+                <ul class="footer_list">
+                  <li class="footer__item">
+                    <a class="footer_link" href="#">About</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer_link" href="#">Project</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer_link" href="#">Service</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer_link" href="#">Client</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer_link" href="#">Team</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer_link" href="#">Blog</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer_link" href="#">Contact</a>
+                  </li>
+                  <li class="footer__item">
+                    <a class="footer_link" href="#">Flow</a>
+                  </li>
+                  <li class="footer__item">
+                    <div class="social-links">
+                      <a href="#" class="social-link"
+                        ><img src="images/icon-f.svg" alt="Facebook" width="35"
+                      /></a>
+                      <a href="#" class="social-link"
+                        ><img
+                          src="images/icon-instagram.svg"
+                          alt="Instagram"
+                          width="35"
+                      /></a>
+                      <a href="#" class="social-link"
+                        ><img
+                          src="images/icon-twitter.svg"
+                          alt="Twitter"
+                          width="35"
+                      /></a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <!-- <button class="welcome__button">Записаться на курс</button> -->
+      </footer>
+    </div>
+    <div class="applications" hidden>
+      <section class="application">
+        <div class="application__wrap">
+          <h3 class="application__title">
+            Запишитесь на курс <br />
+            со скидкой 10%
+          </h3>
+          <p class="application__text">
+            Акция действительна до 10 марта 2025 года
+          </p>
+        </div>
+        <div>
+          <button class="application__close" type="button">Закрыть</button>
+          <form action="/" class="application__form">
+            <input class="application__input" type="text" placeholder="Имя" />
+            <input
+              class="application__input"
+              type="tel"
+              placeholder="Телефон"
+            />
+            <input
+              class="application__input"
+              type="email"
+              placeholder="E-mail"
+            />
+            <button class="application__button">Отправить заявку</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="scripts/scripts.js"></script>
+  </body>
 </html>
